@@ -32,3 +32,4 @@ jobs:
         run: |
           docker push ${{ secrets.ECR_URI }}:latest
       #Não irá funcionar a parte de Push pois não contém a URI do Repositorio ECR dentro das Secrets
+#teste
